@@ -1,0 +1,6 @@
+@azureTestDeployment_HostAddress = http://localhost:5137
+
+GET {{azureTestDeployment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
